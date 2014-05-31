@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.webdrivers.test" name="Test WebDrivers" version="0.0.1" provider-name="HAL9000">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.webdrivers" version="*"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="test.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+    </extension>
+</addon>
